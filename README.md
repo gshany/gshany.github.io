@@ -11,20 +11,12 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+一、CSS百分比padding都是相对宽度计算的
+在默认的水平文档流方向下，CSS margin和padding属性的垂直方向的百分比值都是相对于宽度计算的，这个和top, bottom等属性的百分比值不一样。
 
-- Bulleted
-- List
+这么设计的原因在我的新书（应该不出几个月就要出版了）中会有说明，这里不展开。
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+对于padding属性而言，任意方向的百分比padding都现对于宽度计算可以让我们轻松实现固定比例的块级容器，举个例子，假设现在有个<div>元素
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
