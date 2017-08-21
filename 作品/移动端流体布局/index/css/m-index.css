@@ -1,0 +1,335 @@
+	
+	/* 要自适应图片必须先这样设置 固定格式 */		
+	
+	img{
+		display:block;
+		max-width:100%;
+	}
+	
+	
+	
+	.hr-45{height:.45rem}
+	
+	.adver{
+		max-width:6.4rem;   
+		margin:0 auto;
+		
+		/* padding:.45rem 0 0; */
+	}
+		
+	
+	
+	
+	
+	
+	/* 搜索区域  */
+	
+	#search {
+		max-width:6.4rem;
+		height:0.33rem;
+		background-color:#ddd;
+		margin:0 auto;
+		padding: .03rem 0 0 0;
+		position:relative;
+	}
+	
+	#search .search {
+		display:block;
+		width: 95%;
+		height:0.27rem;
+		border-radius:.04rem ;
+		font-size: .14rem;
+		background-color: #fff;
+		border: none;
+		padding: 0 .05rem;
+		margin: 0 auto; 
+		
+		
+	}
+	
+	#search .button {
+		width: .5rem;
+		background-color: #eee;
+		cursor: pointer;
+		color: #666;
+		border: none;
+		border-bottom-right-radius:.04rem;
+		border-top-right-radius:.04rem;
+		display: block;
+		height:0.27rem;
+		position: absolute; 
+		font-size: .12rem;
+		top: .03rem;
+		right: 1%;
+	
+	}
+	
+
+	
+
+	/* 标题区域  */
+	
+	#tour{
+		max-width:6.4rem;
+		margin:.1rem auto 0 auto;
+	}
+	
+	
+	#tour h2 {
+		color:#666;
+		font-size:.26rem;
+		text-align:center;
+		letter-spacing:.05rem;
+	}
+	
+	#tour h3 {
+		color:#666;
+		font-weight: normal;
+		font-size:.16rem;
+		text-align:center;
+		margin: .05rem 0 .1rem 0;
+		letter-spacing:.05rem;
+	}
+
+	
+	
+	
+	@media (min-width:480px) and (max-width:640px) {
+		#tour h2 {
+			font-size:.26rem;
+		}
+		#tour h3 ,figcaption,.info{
+			font-size:.16rem;
+		}
+		
+		#footer{ 
+			font-size:0.16rem;
+		}
+		
+	
+	}
+	
+	@media (max-width:480px) {
+		#tour h2 {
+			font-size:.18rem;
+		}
+		#tour h3 ,figcaption,.info{
+			font-size:.14rem;
+		}
+	
+		#footer{ 
+			font-size:0.12rem;
+		}
+		
+	
+	}
+	
+	#content {
+		max-width:6.4rem;
+		margin:0 auto;
+	}
+	
+	#content figure {
+		width:50%;
+		float:left;
+		
+		background:#eee;
+		font-size:.16rem;
+		padding:0 0 .05rem 0;
+	}
+	
+	#content figure img{
+		padding:.02px;
+		border-radius:.04rem;
+		/* vertical-align:middle;   啥用 */ 
+	}
+	
+	#content figcaption {
+		color:#666;
+		padding:.02rem .05rem;
+	} 
+	
+	#content h4 {
+		font-weight:normal;
+		white-space:nowrap;
+		overflow:hidden;
+	}
+	
+	#content p {
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+	}
+	
+	#content .info {
+		padding:.1rem 0 0 0;
+		font-size:.16rem;
+	}
+	
+	#content .price {
+		color:#f60;
+	}
+	
+	#content .sat {
+		font-style:normal;
+		float:right;
+		position:relative;
+		right:.05rem;
+	}
+	
+	#content strong {
+		letter-spacing:.01rem;
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* .search{ */
+		/* background:url(../images/banner/seach.jpg) center  no-repeat; */
+		/* width:100%; */
+		
+		/* min-width:1263px;  */
+		
+		/* height:490px; */
+		/* position:relative; */
+	/* } */
+	
+	/* .search .center{ */
+		/* width:600px; */
+		/* height:60px; */
+		/* background:#000; */
+		/* position:absolute; */
+		/* left:50%; */
+		/* top:50%; */
+		/* margin:-30px 0 0 -300px; */
+		/* opacity:0.6; */
+		/* border-radius:10px; */
+	/* } */
+	
+	/* .search .text{ */
+		/* width:446px; */
+		/* height:56px; */
+		/* line-height:56px; */
+		/* position:absolute; */
+		/* left:50%; */
+		/* top:50%; */
+		/* margin:-30px 0 0 -296px; */
+		/* border-radius:10px; */
+		/* color:#666; */
+		/* border-radius:10px; */
+		/* border:1px #666 solid; */
+		/* font-size:24px; */
+		/* padding:0 10px; */
+	/* } */
+		
+		
+	/* .search .button { */
+		/* width:120px; */
+		/* height:56px; */
+		/* background:#eee; */
+		/* position:absolute; */
+		/* left:50%; */
+		/* top:50%; */
+		/* cursor: pointer; */
+		/* margin:-30px 0 0 175px; */
+		/* border-radius:10px; */
+		/* color:#666; */
+		/* border-radius:10px; */
+		/* border:1px #666 solid; */
+		/* font-size:24px; */
+		/* font-weight:bold; */
+	/* } */
+	
+		
+		
+/* /* 主内容区*/			 
+		
+		/* #tour{ */
+			/* width:1263px; */
+			/* height:1120x; */
+			/* margin:20px auto; */
+			/* text-align:center; */
+		    /* /* background:gray */ 
+		/* }	 */
+		
+		 /* #tour h2{ */
+			 /* margin:20px 0; */
+			 /* font-size: 45px; */
+			 /* letter-spacing: 2px; */
+             /* color: #666; */
+		 /* } */
+		 
+		  /* #tour p{ */
+			 /* margin:10px 0; */
+             /* color: #666; */
+		  /* } */
+		 
+		  /* #tour figure{ */
+			  /* border:1px solid #ddd; */
+			  /* display:inline-block; */
+			  /* padding:4px; */
+			  /* margin:15px 12px; */
+			  /* width:381px; */
+			  /* position:relative; */
+			
+		  /* } */
+		  
+		  /* #tour img{ */
+			  /* vertical-align:middle; */
+			
+		  /* } */
+		 
+		 /* #tour .sat{ */
+			 /* float:right; */
+			 /* position:relative; */
+			 /* left:-10px; */
+			 /* padding:20px 0 0 0; */
+			 /* font-size:14px; */
+			 /* color:#999; */
+			 /* font-weight:bold; */
+			 
+		 /* } */
+		 
+		  /* #tour .price{ */
+			 /* float:left; */
+			 /* font-style:normal; */
+			 /* padding:20px 0 0 0; */
+			 /* color:#f60; */
+			 /* font-size: 14px; */
+		 /* } */
+		 
+		/* #tour .price strong{ */
+			/* font-size: 20px;  */
+			/* letter-spacing: 1px; */
+		 /* } */
+		 
+		 /* #tour .remark{ */
+			 /* width:90px; */
+			 /* height:25px; */
+			 /* line-height:25px; */
+			 /* background:#59b200; */
+			 /* border-bottom-right-radius: 4px; */
+			 /* color:#fff; */
+			 /* font-size:14px; */
+			 /* letter-spacing:2px; */
+			 /* position:absolute; */
+			 /* left:6px; */
+			 /* top:5px; */
+		 /* } */
+	
+
